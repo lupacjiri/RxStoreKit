@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RxStoreKit"
-  s.version      = "1.2.3"
+  s.version      = "1.3.0"
   s.summary      = "StoreKit library for RxSwift"
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/glassonion1/RxStoreKit.git", :tag => "#{s.version}" }
+  #s.source       = { :git => "https://github.com/glassonion1/RxStoreKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/glassonion1/RxStoreKit.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
